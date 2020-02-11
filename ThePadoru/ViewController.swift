@@ -139,6 +139,7 @@ class ViewController: UIViewController {
                 highscoreLabel.text = "Highscore : \(highS)"
                 UserDefaults.standard.set(highscoreLabel.text, forKey: "hs")
                 UserDefaults.standard.synchronize()
+                print("xD")
             }
             }
             
